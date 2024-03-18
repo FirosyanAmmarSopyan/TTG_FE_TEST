@@ -151,15 +151,67 @@
     <div class="text-center title-contain-5">
       OUR PRODUCTS
     </div>
+    <div id="our-product">
+      <ul class="nav justify-content-center my-3">
+        <li class="nav-item2">
+          <a class="nav-link link3 active" style="color:black;" onmouseover="this.style.color='#9bcf81'"
+            onfocus="this.style.border='solid'; this.style.borderWidth='1px'" onblur="this.style.border='none'"
+            onmouseout="this.style.color='black'" href="#our-product">All</a>
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link link3" style="color:black" onmouseover="this.style.color='#9bcf81'"
+            onfocus="this.style.border='solid'; this.style.borderWidth='1px'" onblur="this.style.border='none'"
+            onmouseout="this.style.color='black'" href="#our-product">FURNITURES</a>
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link link3" style="color:black" onmouseover="this.style.color='#9bcf81'"
+            onfocus="this.style.border='solid'; this.style.borderWidth='1px'" onblur="this.style.border='none'"
+            onmouseout="this.style.color='black'" href="#our-product">DECORATION</a>
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link link3" style="color:black" onmouseover="this.style.color='#9bcf81'"
+            onfocus="this.style.border='solid'; this.style.borderWidth='1px'" onblur="this.style.border='none'"
+            onmouseout="this.style.color='black'" href="#our-product">ACCESSORIES</a>
+        </li>
+      </ul>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 </template>
 
 <style>
+.container-5 {
+  background-color: #f1f2f6;
+  padding-top: 10%;
+}
 
-.title-contain-5{
+.title-contain-5 {
   font-size: 30px;
   font-weight: 500;
 }
+
 .container-3 {
   background-image: url("./assets/bg-img.webp");
   padding-top: 5%;
@@ -399,6 +451,15 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .title-contain-5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .link3{
+    font-size: 12px;
+  }
 
   .title-3 {
     font-size: 26px;
