@@ -535,15 +535,6 @@
   transition: 0.3s ease-out;
 }
 
-.text-body {
-  color: rgb(134, 134, 134);
-}
-
-/*Text*/
-.text-title {
-  font-size: 1.5em;
-  font-weight: bold;
-}
 
 /*Hover*/
 .card:hover {
@@ -556,16 +547,11 @@
   opacity: 1;
 }
 
-.container-card-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 25px;
-}
 
 .container-5 {
   background-color: #f1f2f6;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .title-contain-5 {
@@ -977,6 +963,97 @@
     justify-content: center;
     display: flex;
   }
+
+  .container-card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.checked {
+  color: #51B31E;
+}
+
+.text-in-triangle {
+  position: absolute;
+  width: 70px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 500;
+  transform: rotate(45deg);
+}
+
+.triangle-container {
+  position: relative;
+}
+
+.triangle {
+  border-left: 0px solid transparent;
+  border-right: 70px solid #51B31E;
+  border-bottom: 70px solid transparent;
+  position: absolute;
+  top: 0;
+  right: -3px;
+}
+
+.price-card {
+  font-weight: 500;
+}
+
+.btm-title-card {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.img-card-2 {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.out-card {
+  width: 120px;
+  height: 40%;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 100%;
+  border: none;
+  background-color: #51B31E;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+
+/*Hover*/
+.card:hover {
+  border-color: #51B31E;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+}
 
 }
 
