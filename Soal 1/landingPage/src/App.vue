@@ -476,16 +476,50 @@
                   laborum dolore elit sit aute excepteur. Anim esse enim incididunt officia commodo nostrud cupidatat
                   adipisicing in consequat. Nulla laborum excepteur ad pariatur."
                 </small></div>
-              <div>
+              <div class="my-3">
                 <img alt="author" src="./assets/Cristiano.jpg" class="avatar avatar-85 photo" width="85" height="85">
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <h2>TEXT2</h2>
+            <div class="container-say">
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="text-muted desc-say"><small>
+                  "Fugiat anim consectetur proident enim ullamco aliquip labore mollit. Lorem incididunt laboris enim
+                  laborum dolore elit sit aute excepteur."
+                </small></div>
+              <div class="my-3">
+                <img alt="author"
+                  src="https://img.a.transfermarkt.technology/portrait/header/342229-1682683695.jpg?lm=1"
+                  class="avatar avatar-85 photo" width="85" height="85">
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <h3>R+XZJ</h3>
+            <div class="container-say">
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="text-muted desc-say"><small>
+                  "Fugiat anim consectetur proident enim ullamco aliquip labore mollit. Lorem incididunt laboris enim
+                  laborum dolore elit sit aute excepteur.Lorem Ipsum Sir Dolor AMet"
+                </small></div>
+              <div class="my-3">
+                <img alt="author"
+                  src="https://img.a.transfermarkt.technology/portrait/header/28003-1710080339.jpg?lm=1"
+                  class="avatar avatar-85 photo" width="85" height="85">
+              </div>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1152,9 +1186,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
-    background-color: red;
   }
 
 }
