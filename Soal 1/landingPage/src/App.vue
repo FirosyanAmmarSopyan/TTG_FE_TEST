@@ -370,7 +370,7 @@
                 <button class="card-button">Quick-View</button>
               </div>
               <div class="btm-title-card text-center mt-3">
-               Hotspot Chair
+                Hotspot Chair
               </div>
               <div class="mt-2">
                 <span class="fa fa-star checked"></span>
@@ -398,7 +398,7 @@
                 <button class="card-button">Quick-View</button>
               </div>
               <div class="btm-title-card text-center mt-3">
-               Hotspot Chair
+                Hotspot Chair
               </div>
               <div class="mt-2">
                 <span class="fa fa-star checked"></span>
@@ -426,7 +426,7 @@
                 <button class="card-button">Quick-View</button>
               </div>
               <div class="btm-title-card text-center mt-3">
-               Hotspot Chair
+                Hotspot Chair
               </div>
               <div class="mt-2">
                 <span class="fa fa-star checked"></span>
@@ -452,9 +452,96 @@
       </a>
     </div>
   </div>
+  <div class="container-6 d-flex flex-row text-center">
+    <div class="col">
+      <div class="title-4">
+        WHAT PEOPLE SAYING
+      </div>
+      <div class="text-center">
+        <i class="fa fa-quote-right icon-quote" aria-hidden="true"></i>
+      </div>
+      <div id="carouselExamples" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-say">
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="text-muted desc-say"><small>
+                  "Fugiat anim consectetur proident enim ullamco aliquip labore mollit. Lorem incididunt laboris enim
+                  laborum dolore elit sit aute excepteur. Anim esse enim incididunt officia commodo nostrud cupidatat
+                  adipisicing in consequat. Nulla laborum excepteur ad pariatur."
+                </small></div>
+              <div>
+                <img alt="author" src="./assets/Cristiano.jpg" class="avatar avatar-85 photo" width="85" height="85">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h2>TEXT2</h2>
+          </div>
+          <div class="carousel-item">
+            <h3>R+XZJ</h3>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col text-left">
+      TESS
+    </div>
+  </div>
 </template>
 
 <style>
+.avatar {
+  object-fit: cover;
+}
+
+.avatar-85 {
+  border: 3px solid #51B31E;
+  border-radius: 85px;
+  margin-right: 10px;
+}
+
+.desc-say {
+  width: 50%;
+}
+
+.container-say {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-quote {
+  color: #7a7474;
+  margin-top: 10px;
+}
+
+.container-6 {
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.title-4 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1d1d1d;
+}
+
 .container-card-item {
   display: flex;
   flex-direction: row;
@@ -965,95 +1052,110 @@
   }
 
   .container-card-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
 
-.checked {
-  color: #51B31E;
-}
+  .checked {
+    color: #51B31E;
+  }
 
-.text-in-triangle {
-  position: absolute;
-  width: 70px;
-  height: 45px;
-  color: rgb(255, 255, 255);
-  font-size: 12px;
-  font-weight: 500;
-  transform: rotate(45deg);
-}
+  .text-in-triangle {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    transform: rotate(45deg);
+  }
 
-.triangle-container {
-  position: relative;
-}
+  .triangle-container {
+    position: relative;
+  }
 
-.triangle {
-  border-left: 0px solid transparent;
-  border-right: 70px solid #51B31E;
-  border-bottom: 70px solid transparent;
-  position: absolute;
-  top: 0;
-  right: -3px;
-}
+  .triangle {
+    border-left: 0px solid transparent;
+    border-right: 70px solid #51B31E;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -3px;
+  }
 
-.price-card {
-  font-weight: 500;
-}
+  .price-card {
+    font-weight: 500;
+  }
 
-.btm-title-card {
-  font-weight: 500;
-  font-size: 16px;
-}
+  .btm-title-card {
+    font-weight: 500;
+    font-size: 16px;
+  }
 
-.img-card-2 {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-}
+  .img-card-2 {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
 
-.out-card {
-  width: 120px;
-  height: 40%;
-}
+  .out-card {
+    width: 120px;
+    height: 40%;
+  }
 
-.card {
-  width: 120px;
-  height: 120px;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
-}
-
-
-
-.card-button {
-  transform: translate(-50%, 125%);
-  width: 100%;
-  border: none;
-  background-color: #51B31E;
-  color: #fff;
-  font-size: 1rem;
-  padding: .5rem 1rem;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s ease-out;
-}
+  .card {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+  }
 
 
-/*Hover*/
-.card:hover {
-  border-color: #51B31E;
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-}
 
-.card:hover .card-button {
-  transform: translate(-50%, 0%);
-  opacity: 1;
-}
+  .card-button {
+    transform: translate(-50%, 125%);
+    width: 100%;
+    border: none;
+    background-color: #51B31E;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+
+
+  /*Hover*/
+  .card:hover {
+    border-color: #51B31E;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .card:hover .card-button {
+    transform: translate(-50%, 0%);
+    opacity: 1;
+  }
+
+  .title-4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1d1d1d;
+  }
+
+  .desc-say {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    background-color: red;
+  }
 
 }
 
