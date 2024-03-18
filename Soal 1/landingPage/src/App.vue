@@ -175,18 +175,36 @@
         </li>
       </ul>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner carousel-2">
         <div class="carousel-item active">
-          <div>
-
+          <div class="out-card">
+            <div class="card">
+              <div>
+                <img src="./assets/img-4.jpg" class="img-card-2" alt="">
+              </div>
+              <button class="card-button">Quick-View</button>
+            </div>
+            <div class="btm-title-card text-center mt-3">
+              Wall Lamp
+            </div>
+            <div class="mt-2">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="price-card mt-2">
+              $630.30
+            </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -202,6 +220,83 @@
 </template>
 
 <style>
+.checked {
+  color: #51B31E;
+}
+
+.price-card{
+  font-weight: 500;
+}
+
+.btm-title-card {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.img-card-2 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.out-card {
+  width: 255px;
+  height: 40%;
+}
+
+.card {
+  width: 255px;
+  height: 40%;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 100%;
+  border: none;
+  background-color: #51B31E;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.text-body {
+  color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: #51B31E;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+}
+
+.container-card-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
 .container-5 {
   background-color: #f1f2f6;
   padding-top: 10%;
@@ -457,7 +552,7 @@
     font-weight: 500;
   }
 
-  .link3{
+  .link3 {
     font-size: 12px;
   }
 
