@@ -606,17 +606,20 @@
   justify-content: center;
   align-items: center;
 }
-.text-container-9{
+
+.text-container-9 {
   font-size: 30px;
   text-overflow: ellipsis;
-  color:white;
+  color: white;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
 .container-9 {
   background-color: #3b3a3a;
- padding: 20px 10px 10px 20px;
-  
+  padding: 20px 10px 10px 20px;
+
 }
 
 .mapouter {
@@ -677,7 +680,7 @@
 
 .title-container-7 {
   color: #1D1D1D;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 500;
   text-align: center;
 }
@@ -1066,48 +1069,49 @@
 .navbar-nav {
   gap: 20px;
 }
+
 .btn-3 {
 
-    padding: 10px 20px;
-    font-size: 1.1rem;
-    background-color: rgb(89, 182, 35);
-    border: none;
-    color: white;
-    position: relative;
-    width: 150px;
-    height: 45px;
-    transition: background-color 0.2s ease-in, all 0.15s ease-in;
-  }
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: rgb(89, 182, 35);
+  border: none;
+  color: white;
+  position: relative;
+  width: 150px;
+  height: 45px;
+  transition: background-color 0.2s ease-in, all 0.15s ease-in;
+}
 
-  .btn-3::after {
-    display: flex;
-    font-size: 14px;
-    align-items: center;
-    justify-content: center;
-    content: "CONTACT";
-    width: 150px;
-    height: 45px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(5px, 5px);
-    background-color: white;
-    color: rgb(53, 144, 0);
-    border: 2px solid rgb(53, 144, 0);
-    transition: all 0.15s ease-in;
-  }
+.btn-3::after {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  content: "CONTACT";
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(5px, 5px);
+  background-color: white;
+  color: rgb(53, 144, 0);
+  border: 2px solid rgb(53, 144, 0);
+  transition: all 0.15s ease-in;
+}
 
-  .btn-3:hover::after {
-    transform: translate(-8px, -9px);
-  }
+.btn-3:hover::after {
+  transform: translate(-8px, -9px);
+}
 
-  .btn-3:hover {
-    transform: translate(5px, 5px);
-  }
+.btn-3:hover {
+  transform: translate(5px, 5px);
+}
 
-  .btn-3:active::after {
-    background-color: rgb(232, 255, 219);
-  }
+.btn-3:active::after {
+  background-color: rgb(232, 255, 219);
+}
 
 @media screen and (max-width: 768px) {
   .btn-3 {
@@ -1430,6 +1434,44 @@
   .overlay {
     font-size: 18px;
   }
+
+  .grid-item:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    padding: 40px;
+  }
+
+  .gt-1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-item {
+    position: relative;
+  }
+
+  .text-container-9 {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
 
 }
 
