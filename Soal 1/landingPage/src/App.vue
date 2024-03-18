@@ -598,9 +598,137 @@
       </button>
     </div>
   </div>
+  <div class="container-footer">
+    <img src="./assets/img-bg-2.jpg" class="img-bg-footer" alt="">
+    <div class="quick-link">
+      <div class="title-ql">
+        QUICK LINKS
+      </div>
+      <div class="">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="support">
+      <div class="title-sup">
+        SUPPORT
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="mid-logo">
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="more-info">
+      <div class="title-info">
+        MORE INFO
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="title-contact">
+        CONTACT
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>
+
+.title-ql
+.title-sup
+.title-info
+.title-contact{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.contact {
+  background-color: yellow;
+  position: relative;
+
+}
+
+.more-info {
+  position: relative;
+  background-color: blue;
+}
+
+.support {
+  background-color: #51B31E;
+  position: relative;
+
+}
+
+.mid-logo {
+  background-color: aqua;
+  position: relative;
+
+}
+
+.quick-link {
+  position: relative;
+  background-color: red;
+}
+
+.img-bg-footer {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  position: relative;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
 .col-btn {
   display: flex;
   justify-content: center;
@@ -1457,20 +1585,20 @@
   }
 
   .text-container-9 {
-  font-size: 16px;
-  text-overflow: ellipsis;
-  color: white;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+    font-size: 16px;
+    text-overflow: ellipsis;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-.col-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -20px;
-}
+  .col-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
 
 
 }
