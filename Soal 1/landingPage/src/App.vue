@@ -478,6 +478,9 @@
                 </small></div>
               <div class="my-3">
                 <img alt="author" src="./assets/Cristiano.jpg" class="avatar avatar-85 photo" width="85" height="85">
+                <div class="ava-name text-center mt-3">
+                  C.Ronaldo
+                </div>
               </div>
             </div>
           </div>
@@ -498,6 +501,9 @@
                 <img alt="author"
                   src="https://img.a.transfermarkt.technology/portrait/header/342229-1682683695.jpg?lm=1"
                   class="avatar avatar-85 photo" width="85" height="85">
+                <div class="ava-name">
+                  K.Mbappe
+                </div>
               </div>
             </div>
           </div>
@@ -514,10 +520,12 @@
                   "Fugiat anim consectetur proident enim ullamco aliquip labore mollit. Lorem incididunt laboris enim
                   laborum dolore elit sit aute excepteur.Lorem Ipsum Sir Dolor AMet"
                 </small></div>
-              <div class="my-3">
-                <img alt="author"
-                  src="https://img.a.transfermarkt.technology/portrait/header/28003-1710080339.jpg?lm=1"
+              <div class="my-3 text-center">
+                <img alt="author" src="https://img.a.transfermarkt.technology/portrait/header/28003-1710080339.jpg?lm=1"
                   class="avatar avatar-85 photo" width="85" height="85">
+                <div class="ava-name">
+                  Lionel Messi
+                </div>
               </div>
             </div>
           </div>
@@ -533,14 +541,155 @@
       </div>
     </div>
     <div class="col text-left">
-      TESS
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/SmmQ8CZeCtU"
+          title="TOP 10 IKEA HACKS | easy, functional &amp; aesthetic (full tutorials)" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="container-7 text-center">
+    <div class="title-container-7 py-5">
+      AWESOME PORTOFOLIO
+    </div>
+    <div class="parent">
+      <div class="grid-item">
+        <img src="./assets/img-6.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+      <div class="grid-item">
+        <img src="./assets/img-4.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+      <div class="grid-item">
+        <img src="./assets/img-5.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+      <div class="grid-item">
+        <img src="./assets/img-4.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+      <div class="grid-item">
+        <img src="./assets/img-5.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+      <div class="grid-item">
+        <img src="./assets/img-6.jpg" class="gt-1" alt="">
+        <div class="overlay">View</div>
+      </div>
+    </div>
+  </div>
+  <div class="container-8">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=sidoarjo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="container-9 d-flex flex-row">
+    <div class="col text-container-9 ">
+      HAVE QUESTION?<br>
+      WE HAVE ANSWER.
+    </div>
+    <div class="col col-btn text-center">
+      <button class="btn-3">
+      </button>
     </div>
   </div>
 </template>
 
 <style>
+.col-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container-9{
+  font-size: 30px;
+  text-overflow: ellipsis;
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+.container-9 {
+  background-color: #3b3a3a;
+ padding: 20px 10px 10px 20px;
+  
+}
+
+.mapouter {
+  width: 100%;
+}
+
+.gmap_canvas iframe {
+  width: 100%;
+  height: 560px;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 70%;
+  padding: 100px;
+}
+
+.gt-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: #54814a;
+  color: white;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+}
+
+.grid-item:hover .overlay {
+  opacity: 0.5;
+}
+
+
+.container-7 {
+  background-image: url("./assets/img-bg.webp");
+}
+
+.title-container-7 {
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
 .avatar {
   object-fit: cover;
+}
+
+.ava-name {
+  color: #51B31E;
+  font-weight: 500;
+  align-self: center;
 }
 
 .avatar-85 {
@@ -917,8 +1066,92 @@
 .navbar-nav {
   gap: 20px;
 }
+.btn-3 {
+
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: rgb(89, 182, 35);
+    border: none;
+    color: white;
+    position: relative;
+    width: 150px;
+    height: 45px;
+    transition: background-color 0.2s ease-in, all 0.15s ease-in;
+  }
+
+  .btn-3::after {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    content: "CONTACT";
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(5px, 5px);
+    background-color: white;
+    color: rgb(53, 144, 0);
+    border: 2px solid rgb(53, 144, 0);
+    transition: all 0.15s ease-in;
+  }
+
+  .btn-3:hover::after {
+    transform: translate(-8px, -9px);
+  }
+
+  .btn-3:hover {
+    transform: translate(5px, 5px);
+  }
+
+  .btn-3:active::after {
+    background-color: rgb(232, 255, 219);
+  }
 
 @media screen and (max-width: 768px) {
+  .btn-3 {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: rgb(89, 182, 35);
+    border: none;
+    color: white;
+    position: relative;
+    width: 80px;
+    height: 25px;
+    transition: background-color 0.2s ease-in, all 0.15s ease-in;
+    margin-top: 20px;
+  }
+
+  .btn-3::after {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    content: "CONTACT";
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(5px, 5px);
+    background-color: white;
+    color: rgb(53, 144, 0);
+    border: 2px solid rgb(53, 144, 0);
+    transition: all 0.15s ease-in;
+  }
+
+  .btn-3:hover::after {
+    transform: translate(-8px, -9px);
+  }
+
+  .btn-3:hover {
+    transform: translate(5px, 5px);
+  }
+
+  .btn-3:active::after {
+    background-color: rgb(232, 255, 219);
+  }
 
   .title-contain-5 {
     font-size: 20px;
@@ -1188,6 +1421,14 @@
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
+  }
+
+  .embed-responsive {
+    height: 80%;
+  }
+
+  .overlay {
+    font-size: 18px;
   }
 
 }
