@@ -601,29 +601,28 @@
   <div class="container-footer">
     <img src="./assets/img-bg-2.jpg" class="img-bg-footer" alt="">
     <div class="quick-link">
-      <div class="title-ql">
+      <div class="title-footer">
         QUICK LINKS
       </div>
       <div class="">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portofolio</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
     </div>
     <div class="support">
-      <div class="title-sup">
+      <div class="title-footer">
         SUPPORT
       </div>
       <div>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Employment</a></li>
+          <li><a href="">Request A Quote</a></li>
         </ul>
       </div>
     </div>
@@ -638,7 +637,7 @@
       </div>
     </div>
     <div class="more-info">
-      <div class="title-info">
+      <div class="title-footer">
         MORE INFO
       </div>
       <div>
@@ -652,7 +651,7 @@
       </div>
     </div>
     <div class="contact">
-      <div class="title-contact">
+      <div class="title-footer">
         CONTACT
       </div>
       <div>
@@ -661,7 +660,6 @@
           <li><a href="">Home</a></li>
           <li><a href="">Home</a></li>
           <li><a href="">Home</a></li>
-
         </ul>
       </div>
     </div>
@@ -670,40 +668,38 @@
 
 <style>
 
-.title-ql
-.title-sup
-.title-info
-.title-contact{
-  font-weight: 500;
-  font-size: 30px;
+.title-footer{
+  font-weight: 400;
+  font-size: 26px;
+  /* border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: #51B31E;
+  border-width: 2px;
+  border-style: solid; */
 }
 
 .contact {
-  background-color: yellow;
   position: relative;
 
 }
 
 .more-info {
   position: relative;
-  background-color: blue;
 }
 
 .support {
-  background-color: #51B31E;
   position: relative;
 
 }
 
 .mid-logo {
-  background-color: aqua;
   position: relative;
 
 }
 
 .quick-link {
   position: relative;
-  background-color: red;
 }
 
 .img-bg-footer {
