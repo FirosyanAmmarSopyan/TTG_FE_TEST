@@ -178,33 +178,268 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
       <div class="carousel-inner carousel-2">
         <div class="carousel-item active">
-          <div class="out-card">
-            <div class="card">
-              <div>
-                <img src="./assets/img-4.jpg" class="img-card-2" alt="">
+          <div class="container-card-item">
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-4.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
               </div>
-              <button class="card-button">Quick-View</button>
+              <div class="btm-title-card text-center mt-3">
+                Wall Lamp
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
             </div>
-            <div class="btm-title-card text-center mt-3">
-              Wall Lamp
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-4.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+                Wall Lamp
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
             </div>
-            <div class="mt-2">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-            <div class="price-card mt-2">
-              $630.30
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-4.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+                Wall Lamp
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-
+          <div class="container-card-item">
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-5.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+                Wifi Blanket
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-5.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+                Wifi Blanket
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-5.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+                Wifi Blanket
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-
+          <div class="container-card-item">
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-6.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+               Hotspot Chair
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-6.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+               Hotspot Chair
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+            <div class="out-card">
+              <div class="card">
+                <div class="triangle-container">
+                  <img src="./assets/img-6.jpg" class="img-card-2" alt="">
+                  <div class="triangle">
+                    <div class="text-in-triangle">
+                      <p>
+                        15% OFF
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button">Quick-View</button>
+              </div>
+              <div class="btm-title-card text-center mt-3">
+               Hotspot Chair
+              </div>
+              <div class="mt-2">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-card mt-2">
+                $630.30
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -220,11 +455,42 @@
 </template>
 
 <style>
+.container-card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
 .checked {
   color: #51B31E;
 }
 
-.price-card{
+.text-in-triangle {
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  top: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transform: rotate(45deg);
+}
+
+.triangle-container {
+  position: relative;
+}
+
+.triangle {
+  border-left: 0px solid transparent;
+  border-right: 90px solid #51B31E;
+  border-bottom: 90px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.price-card {
   font-weight: 500;
 }
 
