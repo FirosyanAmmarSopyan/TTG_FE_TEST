@@ -604,13 +604,15 @@
       <div class="title-footer">
         QUICK LINKS
       </div>
+      <div class="divider">
+      </div>
       <div class="">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Portofolio</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a class="li-footer" href="">Home</a></li>
+          <li><a class="li-footer" href="">About</a></li>
+          <li><a class="li-footer" href="">Services</a></li>
+          <li><a class="li-footer" href="">Portofolio</a></li>
+          <li><a class="li-footer" href="">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -618,35 +620,49 @@
       <div class="title-footer">
         SUPPORT
       </div>
+      <div class="divider">
+      </div>
       <div>
         <ul>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Employment</a></li>
-          <li><a href="">Request A Quote</a></li>
+          <li><a class="li-footer" href="">FAQ</a></li>
+          <li><a class="li-footer" href="">Employment</a></li>
+          <li><a class="li-footer" href="">Request A Quote</a></li>
         </ul>
       </div>
     </div>
     <div class="mid-logo">
       <div>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-        </ul>
+        <img src="./assets/footer-logo.png" class="img-mid-logo" alt="logos">
+      </div>
+      <div class="social-div mt-3 d-flex flex-row justify-content-center">
+        <div>
+          <a class="btn-social">
+            <i class="fa fa-instagram icon fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div>
+          <a class="btn-social">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div>
+          <a class="btn-social">
+            <i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
       </div>
     </div>
     <div class="more-info">
       <div class="title-footer">
         MORE INFO
       </div>
+      <div class="divider">
+      </div>
       <div>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-
+          <li><a class="li-footer" href="">News</a></li>
+          <li><a class="li-footer" href="">Media</a></li>
+          <li><a class="li-footer" href="">Videos</a></li>
+          <li><a class="li-footer" href="">Blog</a></li>
         </ul>
       </div>
     </div>
@@ -654,29 +670,97 @@
       <div class="title-footer">
         CONTACT
       </div>
-      <div>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-        </ul>
+      <div class="divider">
       </div>
+      <div class="div-contact d-flex flex-column">
+        <div class="d-flex flex-row div-i-map">
+          <i class="fa fa-map-marker fa-lg" aria-hidden="true">
+          </i>
+          <div class="ml-2 i-title">
+            10029 Paloma Street 23 massachussets,21390219
+          </div>
+        </div>
+        <div class="d-flex flex-row mt-3 align-center">
+          <i class="fa fa-envelope" aria-hidden="true">
+          </i>
+          <div class="ml-2 i-title-2">
+            sales@myguysknowhow.com
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="license-container text-center">
+    <div class="license-txt">
+      &copy 2021
     </div>
   </div>
 </template>
 
 <style>
+.license-txt{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.license-container{
+  background-color: #3b3a3a;
+}
+.btn-social:hover{
+  font-size: 30px;
+}
+.btn-social{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img-mid-logo {
+  width: 250px;
+}
 
-.title-footer{
-  font-weight: 400;
-  font-size: 26px;
-  /* border-top: transparent;
+.li-footer:hover {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.li-footer {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+div ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.div-contact .d-flex {
+  align-items: center;
+}
+
+.div-contact .d-flex i {
+  vertical-align: middle;
+}
+
+.i-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  width: 70%;
+
+}
+
+.divider {
+  border-top: transparent;
   border-left: transparent;
   border-right: transparent;
-  border-bottom: #51B31E;
-  border-width: 2px;
-  border-style: solid; */
+  border-bottom: 2px solid #51B31E;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.title-footer {
+  font-weight: 400;
+  font-size: 26px;
 }
 
 .contact {
@@ -703,7 +787,7 @@
 }
 
 .img-bg-footer {
-  opacity: 0.4;
+  opacity: 0.3;
   position: absolute;
   left: 0;
   top: 0;
@@ -716,10 +800,9 @@
 .container-footer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   background-size: cover;
   position: relative;
-  gap: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -987,7 +1070,6 @@
 }
 
 .bottom-card {
-  /* background-color: red; */
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -1595,6 +1677,113 @@
     align-items: center;
     margin-top: -20px;
   }
+
+  .btn-social:hover{
+  font-size: 20px;
+}
+.btn-social{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img-mid-logo {
+  width: 100px;
+}
+
+.li-footer:hover {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.li-footer {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+div ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.div-contact {
+  align-items: center;
+}
+
+.div-contact .d-flex i {
+  vertical-align: middle;
+}
+.div-i-map{
+  justify-content: center;
+}
+
+.i-title {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  width: 50%;
+}
+
+.divider {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #51B31E;
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.title-footer {
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+.contact {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.more-info {
+  position: relative;
+}
+
+.support {
+  position: relative;
+
+}
+
+.mid-logo {
+  position: relative;
+
+}
+
+.quick-link {
+  position: relative;
+}
+
+.img-bg-footer {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  gap: 30px;
+}
 
 
 }
