@@ -692,12 +692,15 @@
   </div>
   <div class="license-container text-center">
     <div class="license-txt">
-      &copy 2021
+      &copy 2021 <span class="span-txt">MY GUYS KNOW HOW</span>. ALL RIGHTS RESERVED.
     </div>
   </div>
 </template>
 
 <style>
+.span-txt{
+  color: #51B31E;
+}
 .license-txt{
   font-size: 20px;
   font-weight: 500;
@@ -705,6 +708,8 @@
 }
 .license-container{
   background-color: #3b3a3a;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .btn-social:hover{
   font-size: 30px;
@@ -1783,6 +1788,15 @@ div ul li {
   padding-bottom: 20px;
   align-items: center;
   gap: 30px;
+}
+
+.span-txt{
+  color: #51B31E;
+}
+.license-txt{
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
 }
 
 
